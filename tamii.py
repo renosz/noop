@@ -154,14 +154,14 @@ kitsunewelcome = []
 admsa = "ub736c5b1794f5aa30026d162d07ce5e6"
 kitsune = "ub736c5b1794f5aa30026d162d07ce5e6"
 wait = {
-    "contact": false,
-    "clock": false,
-    "autoJoin": true,
-    "autoCancel": {"on": true,"kitsunemembers": 3},
-    "leaveRoom": false,
+    "contact":False,
+    "clock":False,
+    "autoJoin":True,
+    "autoCancel": {"on":True,"kitsunemembers": 3},
+    "leaveRoom":False,
     "setkey": "",
-    "timeline": false,
-    "autoAdd": false,
+    "timeline":False,
+    "autoAdd":False,
     "spam": "KITSUNE COMEBACK",
     "message": "",
     "pap": "http://mofsc.com.au/wp-content/uploads/2016/09/Welcome-02-web-version.jpg",
@@ -172,16 +172,16 @@ wait = {
     "blacklist": {},
     "bots": {},
     "talkblacklist": {},
-    "talkban": true,
-    "wblacklist": false,
-    "talkwblacklist": false,
-    "kick": false,
+    "talkban":True,
+    "wblacklist":False,
+    "talkwblacklist":False,
+    "kick":False,
     "pname": {},
     "pro_name": {}, 
-    "dblacklist": false,
-    "talkdblacklist": false,
-    "twblacklist": false,
-    "tdblacklist": false
+    "dblacklist":False,
+    "talkdblacklist":False,
+    "twblacklist":False,
+    "tdblacklist":False,
    }
 
 wait2 = {
