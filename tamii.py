@@ -195,11 +195,7 @@ wait2 = {
     'midsTarget':{},
     'ROM':{}
     }
-with open('blacklist.json', 'r') as fp:
-    wait["blacklist"] = json.load(fp)
-with open('bots.json', 'r') as fp:
-    wait["bots"] = json.load(fp)
-	
+
 mimic = {
     "status":False,
     "target":{},
