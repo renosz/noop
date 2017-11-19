@@ -526,7 +526,7 @@ def bot(op):
                     profile = ki.getProfile()
                     ki.kitsuneText(kitsune,"「" + mimic["setkey"].title() + "」\n" \
                     +mimic["setkey"].title()+" help\n" \
-                    +mimic["setkey"].title()+" copy\n" \
+                    +mimic["setkey"].title()+" ikkeh\n" \
                     +mimic["setkey"].title()+" steal\n" \
                     +mimic["setkey"].title()+" getinfo\n" \
                     +mimic["setkey"].title()+" getid\n" \
