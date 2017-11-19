@@ -195,7 +195,7 @@ wait2 = {
     'midsTarget':{},
     'ROM':{}
     }
-
+	
 mimic = {
     "status":False,
     "target":{},
@@ -207,6 +207,11 @@ setTime = {}
 setTime = wait2['setTime']
 Bots = wait["bots"]
 
+contact = ki.getProfile()
+backup = ki.getProfile()
+backup.kitsuneName = contact.kitsuneName
+backup.kitsuneBio = contact.kitsuneBio
+backup.kitsunephotoStatus = contact.kitsunephotoStatus
 
 def cms(string, commands): #/XXX, >XXX, ;XXX, ^XXX, %XXX, $XXX...
     tex = ["+","@","/",">",";","^","%","$","＾","サテラ:","サテラ:","サテラ：","サテラ："]
