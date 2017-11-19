@@ -207,11 +207,6 @@ setTime = {}
 setTime = wait2['setTime']
 Bots = wait["bots"]
 
-contact = ki.getProfile()
-backup = ki.getProfile()
-backup.kitsuneName = contact.kitsuneName
-backup.kitsuneBio = contact.kitsuneBio
-backup.kitsunephotoStatus = contact.kitsunephotoStatus
 
 def cms(string, commands): #/XXX, >XXX, ;XXX, ^XXX, %XXX, $XXX...
     tex = ["+","@","/",">",";","^","%","$","＾","サテラ:","サテラ:","サテラ：","サテラ："]
@@ -528,7 +523,7 @@ def bot(op):
                     profile = ki.getProfile()
                     ki.kitsuneText(kitsune,"「" + mimic["setkey"].title() + "」\n" \
                     +mimic["setkey"].title()+" help\n" \
-                    +mimic["setkey"].title()+" ikkeh\n" \
+                    +mimic["setkey"].title()+" copy\n" \
                     +mimic["setkey"].title()+" steal\n" \
                     +mimic["setkey"].title()+" getinfo\n" \
                     +mimic["setkey"].title()+" getid\n" \
