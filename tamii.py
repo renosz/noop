@@ -153,10 +153,48 @@ kitsunetalkban = []
 kitsunewelcome = []
 admsa = "ub736c5b1794f5aa30026d162d07ce5e6"
 kitsune = "ub736c5b1794f5aa30026d162d07ce5e6"
-with open('1.json', 'r') as fp:
-    wait = json.load(fp)
-with open('2.json', 'r') as fp:
-    wait2 = json.load(fp)
+wait = {
+    'contact':False,
+    'clock':False,
+    'autoJoin':True,
+    'autoCancel':{"on":True,"kitsunemembers":3},
+    'leaveRoom':True,
+    'setkey':'kitsune',
+    'timeline':False,
+    'autoAdd':False,
+    'spam':"KITSUNE COMEBACK",
+    'message': "",
+    "lang":"JP",
+    "pap":"",
+    "rname":"Aditya",
+    "rbio":"Aditya",
+    "rpic":"0hq9VvwdPrLhZrDwGtUIlRQVdKIHscISheE2tidkgNI3RHOGxEXz4xdxkIeS8UOm0UXzpjchsOci5C",
+    "blacklist":{},
+    "bots":{},
+    "talkblacklist":{},
+    "wblacklist":False,
+    "talkwblacklist":False,
+    "kick":False,
+    "dblacklist":False,
+    "talkdblacklist":False,
+    "twblacklist":False,
+    "tdblacklist":False,
+    "protect":False,
+    "cancelprotect":False,
+    "talkban":True,
+    "inviteprotect":False,
+    "linkprotect":False,
+   }
+
+wait2 = {
+    'readPoint':{},
+    'readMember':{},
+    'setTime':{},
+    'copy':False,
+    'target':{},
+    'midsTarget':{},
+    'ROM':{}
+    }
 with open('blacklist.json', 'r') as fp:
     wait["blacklist"] = json.load(fp)
 with open('bots.json', 'r') as fp:
